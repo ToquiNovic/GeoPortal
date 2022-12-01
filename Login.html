@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="loginstyle.css">
+         
+    <title>Login</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="forms">
+            <div class="form login">
+                <span class="title">Iniciar Sesion</span>
+
+                <form action="sesion.php" method="post">
+                    <div class="input-field">
+                        <input type="text" name="user" placeholder="Usuario" required>
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" name="pass" class="password" placeholder="Contraseña" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="submit" value="Aceptar">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">No estas registrado?
+                        <a href="#" class="text signup-link"> Registrarme ahora</a>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Registration Form -->
+            <div class="form signup">
+                <span class="title">Registro</span>
+
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Usuario" required>
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Crear contraseña" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Confirmar contraseña" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="button" value="Aceptar">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">
+                        <a href="#" class="text login-link">Iniciar sesion</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scriptlogin.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/logo.png">
+
+    <title>GeoPortal | Acamafrut</title>
+    <!---- FontAwesome -->
+    <script src="https://kit.fontawesome.com/7fc5c36689.js" crossorigin="anonymous"></script>
+
+    <!---- Custom CSS -->
+    <link rel="stylesheet" href="/css/indexstyle.css">
+</head>
+<body>
+   <section class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3 left-sidebar">
+            <div class="mt-4 mb-3">
+                <h4>Buscar Locacion</h4>
+            </div>
+            <div class="form-inline">                
+                <form class="parametros-data my-4">
+                    <div class="selectbox">
+                        <div class="select" id="select">
+                            <div class="contenido-select">
+                                <h1 class="titulo">Seleccionar Municipio...</h1>
+                                <p class="descripcion">............</p>
+                            </div>
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                        <!--- Options -->
+                        <div class="opciones" id="opciones">
+                            <a href="#" class="opcion">
+                                <div class="contenido-opcion">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Albania_%28Caquet%C3%A1%29.svg/22px-Flag_of_Albania_%28Caquet%C3%A1%29.svg.png"
+                                     alt="bandera-albania">
+                                    <div class="textos">
+                                        <h2 class=titulo>Albania</h2>
+                                        <p class="descripcion">albania</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="opcion">
+                                <div class="contenido-opcion">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Bel%C3%A9n_de_los_Andaqu%C3%ADes_%28Caquet%C3%A1%29.svg/22px-Flag_of_Bel%C3%A9n_de_los_Andaqu%C3%ADes_%28Caquet%C3%A1%29.svg.png"
+                                     alt="bandera-belen">
+                                    <div class="textos">
+                                        <h2 class=titulo>Belén de los Andaquíes</h2>
+                                        <p class="descripcion">Belén de los Andaquíes</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="opcion">
+                                <div class="contenido-opcion">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Flag_of_Cartagena_del_Chair%C3%A1_%28Caquet%C3%A1%29.svg/22px-Flag_of_Cartagena_del_Chair%C3%A1_%28Caquet%C3%A1%29.svg.png"
+                                     alt="bandera-cartagena">
+                                    <div class="textos">
+                                        <h2 class=titulo>Cartagena del Chairá</h2>
+                                        <p class="descripcion">Cartagena del Chairá</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="opcion">
+                                <div class="contenido-opcion">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Flag_of_Curillo_%28Caquet%C3%A1%29.svg/22px-Flag_of_Curillo_%28Caquet%C3%A1%29.svg.png"
+                                     alt="bandera-curillo">
+                                    <div class="textos">
+                                        <h2 class=titulo>Curillo</h2>
+                                        <p class="descripcion">Curillo</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="opcion">
+                                <div class="contenido-opcion">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Flag_of_El_Doncello_%28Caquet%C3%A1%29.svg/22px-Flag_of_El_Doncello_%28Caquet%C3%A1%29.svg.png"
+                                     alt="bandera-doncello">
+                                    <div class="textos">
+                                        <h2 class=titulo>El Doncello</h2>
+                                        <p class="descripcion">El Doncello</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="opcion">
+                                <div class="contenido-opcion">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Flag_of_El_Paujil_%28Caquet%C3%A1%29.svg/22px-Flag_of_El_Paujil_%28Caquet%C3%A1%29.svg.png"
+                                     alt="bandera-paujil">
+                                    <div class="textos">
+                                        <h2 class=titulo>El Paujil</h2>
+                                        <p class="descripcion">El Paujil</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="opcion">
+                                <div class="contenido-opcion">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Flag_of_Florencia_%28Caquet%C3%A1%29.svg/22px-Flag_of_Florencia_%28Caquet%C3%A1%29.svg.png"
+                                     alt="bandera-florencia">
+                                    <div class="textos">
+                                        <h2 class=titulo>Florencia</h2>
+                                        <p class="descripcion">Florencia</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="opcion">
+                                <div class="contenido-opcion">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_La_Monta%C3%B1ita_%28Caqueta%29.svg/22px-Flag_of_La_Monta%C3%B1ita_%28Caqueta%29.svg.png"
+                                     alt="bandera-montañita">
+                                    <div class="textos">
+                                        <h2 class=titulo>La Montañita</h2>
+                                        <p class="descripcion">La Montañita</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="opcion">
+                                <div class="contenido-opcion">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Flag_of_Morelia_%28Caquet%C3%A1%29.svg/22px-Flag_of_Morelia_%28Caquet%C3%A1%29.svg.png"
+                                     alt="bandera-morelia">
+                                    <div class="textos">
+                                        <h2 class=titulo>Morelia</h2>
+                                        <p class="descripcion">Morelia</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="opcion">
+                                <div class="contenido-opcion">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_Mil%C3%A1n_%28Caquet%C3%A1%29.svg/22px-Flag_of_Mil%C3%A1n_%28Caquet%C3%A1%29.svg.png"
+                                     alt="bandera-milan">
+                                    <div class="textos">
+                                        <h2 class=titulo>Puerto Milán</h2>
+                                        <p class="descripcion">Puerto Milán</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="opcion">
+                                <div class="contenido-opcion">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Flag_of_Puerto_Rico_%28Caquet%C3%A1%29.svg/22px-Flag_of_Puerto_Rico_%28Caquet%C3%A1%29.svg.png"
+                                     alt="bandera-puertorico">
+                                    <div class="textos">
+                                        <h2 class=titulo>Puerto Rico</h2>
+                                        <p class="descripcion">Puerto Rico</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="opcion">
+                                <div class="contenido-opcion">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_San_Jos%C3%A9_del_Fragua_%28Caquet%C3%A1%29.svg/22px-Flag_of_San_Jos%C3%A9_del_Fragua_%28Caquet%C3%A1%29.svg.png"
+                                     alt="bandera-sanjose">
+                                    <div class="textos">
+                                        <h2 class=titulo>San José del Fragua</h2>
+                                        <p class="descripcion">San José del Fragua</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="opcion">
+                                <div class="contenido-opcion">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Flag_of_San_Vicente_de_Cagu%C3%A1n_%28Caquet%C3%A1%29.svg/22px-Flag_of_San_Vicente_de_Cagu%C3%A1n_%28Caquet%C3%A1%29.svg.png"
+                                     alt="bandera-sanvicente">
+                                    <div class="textos">
+                                        <h2 class=titulo>San Vicente del Caguán</h2>
+                                        <p class="descripcion">San Vicente del Caguán</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="opcion">
+                                <div class="contenido-opcion">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Solano_%28Caquet%C3%A1%29.svg/22px-Flag_of_Solano_%28Caquet%C3%A1%29.svg.png"
+                                     alt="bandera-solano">
+                                    <div class="textos">
+                                        <h2 class=titulo>Solano</h2>
+                                        <p class="descripcion">Solano</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="opcion">
+                                <div class="contenido-opcion">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Solita_%28Caquet%C3%A1%29.svg/22px-Flag_of_Solita_%28Caquet%C3%A1%29.svg.png"
+                                     alt="bandera-solita">
+                                    <div class="textos">
+                                        <h2 class=titulo>Solita</h2>
+                                        <p class="descripcion">Solita</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="opcion">
+                                <div class="contenido-opcion">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Valpara%C3%ADso_%28Caquet%C3%A1%29.svg/22px-Flag_of_Valpara%C3%ADso_%28Caquet%C3%A1%29.svg.png"
+                                     alt="bandera-valparaiso">
+                                    <div class="textos">
+                                        <h2 class=titulo>Valparaíso</h2>
+                                        <p class="descripcion">Valparaíso</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="opcion">
+                                <div class="contenido-opcion">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Flag_of_Caquet%C3%A1.svg/20px-Flag_of_Caquet%C3%A1.svg.png"
+                                     alt="bandera-caqueta">
+                                    <div class="textos">
+                                        <h2 class=titulo>Ver Todo</h2>
+                                        <p class="descripcion">Ver Todo</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+        <div class="col-lg-9" id=map>        
+        </div>
+    </div>
+   </section>
+    <!--- Custom JS -->
+    <script type="text/javascript" src="./js/myleaflet.js"></script>
+    <script src="./js/main.js"></script>
+    
+</body>
+</html>
